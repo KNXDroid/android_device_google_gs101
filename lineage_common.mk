@@ -27,7 +27,6 @@ PRODUCT_PACKAGES += \
 include hardware/google/pixel/lineage_health/device.mk
 
 $(call soong_config_set,lineage_health,charging_control_supports_deadline,true)
-$(call soong_config_set,lineage_health,charging_control_supports_limit,true)
 $(call soong_config_set,lineage_health,charging_control_supports_toggle,false)
 
 # Linker config
